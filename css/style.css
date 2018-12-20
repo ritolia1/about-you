@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', Sans-serif;
+    font-size: 13px;
+    border: 0;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    color: #7f7f7f;
+    padding: 0;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ececec;
+  }
+
+  div.container {
+    width: 100%;
+    top: 50%;
+    margin-top: -150px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  @font-face {
+    font-family: 'si';
+    src: url('/assets/socicon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  .soc {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .soc li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .soc li a {
+    font-family: si !important;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -o-transition: .1s;
+    -ms-transition: .1s;
+    -moz-transition: .1s;
+    -webkit-transition: .1s;
+    transition: .1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 71px;
+    height: 71px;
+    line-height: 71px;
+    font-size: 39px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 34px;
+    color: #ffffff;
+    background-color: none;
+  }
+
+  .soc a:hover {
+    z-index: 2;
+
+  }
+
+  .soc-icon-last {
+    margin: 0 !important;
+  }
+
+  .soc-twitter {
+    background-color: #4da7de;
+  }
+
+  .soc-twitter:before {
+    content: 'a';
+  }
+
+  .soc-facebook {
+    background-color: #3e5b98;
+  }
+
+  .soc-facebook:before {
+    content: 'b';
+  }
+
+  .soc-github {
+    background-color: black;
+  }
+
+  .soc-github:before {
+    content: 'Q';
+  }
+
+  .soc-linkedin {
+    background-color: #3371b7;
+  }
+
+  .soc-linkedin:before {
+    content: 'j';
+  }
+
+  .soc-twitter:hover {
+    background-color: #3993ca;
+  }
+
+  .soc-facebook:hover {
+    background-color: #2a4784;
+  }
+
+  .soc-github:hover {
+    background-color: black;
+  }
+
+  .soc-linkedin:hover {
+    background-color: #1f5da3;
+  }
